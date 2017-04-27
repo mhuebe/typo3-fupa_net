@@ -1,0 +1,114 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    238,
+                    166
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": false,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": [
+                        "team",
+                        "stats",
+                        "schedule"
+                    ]
+                },
+                "name": "Team",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": true,
+                    "type": "Entity",
+                    "uid": "474804388415"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Teamname",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "name",
+                            "propertyType": "String",
+                            "uid": "45542280870"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "identifier",
+                            "propertyType": "String",
+                            "uid": "1202693201813"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "Simple usage of FuPa-widgets from http:\/\/www.fupa.net\/ for your sports society. You have to register to http:\/\/www.fupa.net\/.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.6.0-8.6.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": true,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.6.0-8.6.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "fupa_net",
+        "name": "Fupa.net",
+        "originalExtensionKey": "fupa_net",
+        "originalVendorName": "FupaNet",
+        "persons": [
+            {
+                "company": "",
+                "email": "typo3@huebe.it",
+                "name": "Michael H\u00fcbe",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "key": "team",
+                "name": "Team"
+            }
+        ],
+        "vendorName": "FupaNet"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2017-04-27 09:34",
+        "extension_builder_version": "8.6.0",
+        "be_user": "Michael H\u00fcbe (1)"
+    }
+}

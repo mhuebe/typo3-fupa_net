@@ -1,0 +1,60 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:fupa_net/Resources/Private/Language/locallang_db.xlf:flexforms_tab.settings</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <switchableControllerActions>
+                        <TCEforms>
+                            <label>LLL:EXT:fupa_net/Resources/Private/Language/locallang_db.xlf:flexforms_general.mode</label>
+                            <onChange>reload</onChange>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0">
+                                        <numIndex index="0">LLL:EXT:fupa_net/Resources/Private/Language/locallang_db.xlf:flexforms_general.mode.team</numIndex>
+                                        <numIndex index="1">Team->team</numIndex>
+                                    </numIndex>
+                                    <numIndex index="11">
+                                        <numIndex index="0">LLL:EXT:fupa_net/Resources/Private/Language/locallang_db.xlf:flexforms_general.mode.stats</numIndex>
+                                        <numIndex index="1">Team->stats</numIndex>
+                                    </numIndex>
+                                    <numIndex index="12">
+                                        <numIndex index="0">LLL:EXT:fupa_net/Resources/Private/Language/locallang_db.xlf:flexforms_general.mode.schedule</numIndex>
+                                        <numIndex index="1">Team->schedule</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </switchableControllerActions>
+
+                    <settings.team>
+                        <TCEforms>
+                            <exclude>1</exclude>
+                            <label>LLL:EXT:fupa_net/Resources/Private/Language/locallang_db.xlf:tx_fupanet_domain_model_team</label>
+                            <config>
+                                <type>group</type>
+                                <internal_type>db</internal_type>
+                                <allowed>tx_fupanet_domain_model_team</allowed>
+                                <size>1</size>
+                                <maxitems>1</maxitems>
+                                <minitems>1</minitems>
+                                <show_thumbs>1</show_thumbs>
+                                <wizards>
+                                    <suggest>
+                                        <type>suggest</type>
+                                    </suggest>
+                                </wizards>
+                            </config>
+                        </TCEforms>
+                    </settings.team>
+
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

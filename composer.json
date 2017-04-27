@@ -1,0 +1,19 @@
+{
+    "name": "fupanet/fupa-net",
+    "type": "typo3-cms-extension",
+    "description": "Simple usage of FuPa-widgets from http://www.fupa.net/ for your sports society. You have to register to http://www.fupa.net/.",
+    "author": [
+        {
+            "name": "Michael Hübe",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": ">=8.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FupaNet\\FupaNet\\": "Classes"
+        }
+    }
+}
