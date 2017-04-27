@@ -24,35 +24,8 @@ plugin.tx_fupanet_team {
     }
 }
 
-plugin.tx_fupanet._CSS_DEFAULT_STYLE (
-        textarea.f3-form-error {
-                background-color:#FF9F9F;
-                border: 1px #FF0000 solid;
-        }
-
-        input.f3-form-error {
-                background-color:#FF9F9F;
-                border: 1px #FF0000 solid;
-        }
-
-        .{extension.cssClassName} table {
-                border-collapse:separate;
-                border-spacing:10px;
-        }
-
-        .{extension.cssClassName} table th {
-                font-weight:bold;
-        }
-
-        .{extension.cssClassName} table td {
-                vertical-align:top;
-        }
-
-        .typo3-messages .message-error {
-                color:red;
-        }
-
-        .typo3-messages .message-ok {
-                color:green;
-        }
-)
+page.includeJS {
+    fupa_widget = //www.fupa.net/fupa/widget.min.js
+    fupa_widget.external = 1
+    fupa_widget.disableCompression = 1
+}

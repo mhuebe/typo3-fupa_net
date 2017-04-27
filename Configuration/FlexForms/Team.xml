@@ -10,7 +10,6 @@
                     <switchableControllerActions>
                         <TCEforms>
                             <label>LLL:EXT:fupa_net/Resources/Private/Language/locallang_db.xlf:flexforms_general.mode</label>
-                            <onChange>reload</onChange>
                             <config>
                                 <type>select</type>
                                 <renderType>selectSingle</renderType>
@@ -26,6 +25,10 @@
                                     <numIndex index="12">
                                         <numIndex index="0">LLL:EXT:fupa_net/Resources/Private/Language/locallang_db.xlf:flexforms_general.mode.schedule</numIndex>
                                         <numIndex index="1">Team->schedule</numIndex>
+                                    </numIndex>
+                                    <numIndex index="13">
+                                        <numIndex index="0">LLL:EXT:fupa_net/Resources/Private/Language/locallang_db.xlf:flexforms_general.mode.standings</numIndex>
+                                        <numIndex index="1">Team->standings</numIndex>
                                     </numIndex>
                                 </items>
                             </config>

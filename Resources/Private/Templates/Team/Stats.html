@@ -1,0 +1,19 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:layout name="Default" />
+
+<f:section name="content">
+	<f:flashMessages />
+
+	<div id="widget_{widgetHash}" >... lade FuPa Widget ...
+		<script type="text/javascript">
+			var fupa_widget_header = 0;
+			var fupa_widget_navi = 0;
+			var fupa_widget_div = "widget_{widgetHash}";
+			var fupa_widget_module = "0";
+			team_widget({team.identifier},'statistik');
+		</script>
+	</div>
+
+</f:section>
+</html>

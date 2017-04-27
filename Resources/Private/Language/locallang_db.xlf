@@ -27,6 +27,9 @@
 			<trans-unit id="flexforms_general.mode.schedule">
 				<source>Schedule</source>
 			</trans-unit>
+			<trans-unit id="flexforms_general.mode.standings">
+				<source>Standings</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

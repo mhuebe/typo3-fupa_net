@@ -8,6 +8,10 @@
             "role": "Developer"
         }
     ],
+    "replace": {
+        "fupa_net": "self.version",
+        "typo3-ter/fupa_net": "self.version"
+    },
     "require": {
         "typo3/cms-core": ">=8.7.0"
     },
